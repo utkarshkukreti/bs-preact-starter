@@ -1,0 +1,24 @@
+{
+  "name": "bs-preact-starter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "run-p start:bsb start:microbundle",
+    "start:bsb": "bsb -make-world -w",
+    "start:microbundle": "microbundle watch src/Main.bs.js --raw",
+    "build": "run-s build:bsb build:microbundle",
+    "build:bsb": "bsb -make-world",
+    "build:microbundle": "microbundle build src/Main.bs.js --raw",
+    "clean": "rm -rf dist && bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "devDependencies": {
+    "bs-platform": "^4.0.18",
+    "bs-preact": "^0.1.0",
+    "microbundle": "^0.11.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

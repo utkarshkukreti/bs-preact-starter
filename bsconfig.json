@@ -1,0 +1,11 @@
+{
+  "name": "bs-preact-starter",
+  "version": "0.0.0",
+  "sources": { "dir": "src", "subdirs": true },
+  "ppx-flags": ["bs-preact-ppx/ppx"],
+  "package-specs": { "module": "es6", "in-source": true },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["bs-preact"],
+  "warnings": { "error": "+101" },
+  "refmt": 3
+}
