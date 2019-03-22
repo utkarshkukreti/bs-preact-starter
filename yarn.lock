@@ -467,19 +467,19 @@ bs-platform@^4.0.18:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.18.tgz#d17b8693ba1f714d9b27e0ddb365f2069ba4b8a0"
   integrity sha512-BwzW0iYHvREqUZIgQxJmdJrxexppLvJxYQ4LLexbhCp7uZU5DIZ5ub4ZHpkCkc8fn8bsXWc+Rrejb3csi+BoAQ==
 
-bs-preact-ppx@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/bs-preact-ppx/-/bs-preact-ppx-0.1.0.tgz#1c6c28e5c2b4e55f0f8002b62dacce5bc83fb0d1"
-  integrity sha512-4zEwDp2SfqhyxzQQ+EGyB7zTSiz5dpR9Zave6Mhl+AkgQ0Oo8X0ZS6dbIg5uaUNUeu+ziMm9Y8hbjRssd7/0dw==
+bs-preact-ppx@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/bs-preact-ppx/-/bs-preact-ppx-0.1.1.tgz#8c5e0cc0870931ddb5a7b0dcd8db20686cd2b4b5"
+  integrity sha512-QlAVvZ9XYpDj+CQbHnWpxodcr+F7csBHnZmP572E5JlcctBJHjTSfXtMgcN8JynLuLQoYl8DnBXWgYziCK/yTQ==
   dependencies:
     bsb-native "^4.0.7000"
 
-bs-preact@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/bs-preact/-/bs-preact-0.1.0.tgz#cde8be112483a73f8e1b624519778d11f8fbfeef"
-  integrity sha512-DwOnZ1R76yW+Pe3vhKbzMLomu/R/dIGfggkjCLorwXPHcjinLMUIWkEYhiHe8aEFoNtUlzoIod+ChLtZdIzULg==
+bs-preact@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/bs-preact/-/bs-preact-0.1.1.tgz#65d22fbadcef30e592a5fa72d8509799e18bfeeb"
+  integrity sha512-KtM2kAvSLEoYRiPx9D2FEymNaWOg+V8u3/M0B1HiNRMd8Uw5MmRCwo08MK4kHAuMvQOpVwj2CNYPv2IO5cCNew==
   dependencies:
-    bs-preact-ppx "^0.1.0"
+    bs-preact-ppx "^0.1.1"
     bs-webapi "^0.13.5"
     preact "^10.0.0-alpha.2"
 
